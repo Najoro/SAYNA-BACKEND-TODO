@@ -1,0 +1,59 @@
+:root{
+    --color1 : #E0ECE4;
+    --color2 : #FF4B5C;
+    --color3 : #056674;
+    --color4 : #66BFBF;
+}
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+body{
+    background: var(--color1);
+    font-family:sans-serif;
+}
+
+header{
+    margin-bottom: 10px;
+    background: var(--color3);
+}
+header img{
+    width: 10rem;
+}
+
+.todo{
+    margin: 0 10px;
+}
+.todo h1{
+    text-align: center;
+    margin: 1rem 0;
+    color: var(--color3);
+}
+
+.add-items {
+    width: 100%;
+}
+.add-items form{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+form input {
+    width: 100%;
+}
+form button {
+    color: #fff;
+    grid-area: 100%;
+    padding: 10px 1rem;
+    margin-left: 5px;
+    background: var(--color3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background: var(--color4);
+    color: #000;
+}
+
